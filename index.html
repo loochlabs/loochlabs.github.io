@@ -188,6 +188,8 @@
     <div class="project">
       <div class="carousel">
         <img src="images/temperature.png" class="active">
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
         <div class="dots"></div>
       </div>
       <h3>Temperature Parser | Research Tool | 2020</h3>
@@ -201,6 +203,8 @@
     <div class="project">
       <div class="carousel">
         <img src="images/bookie.png" class="active">
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
         <div class="dots"></div>
       </div>
 
@@ -250,7 +254,7 @@
     <p>© 2026 Looch Labs</p>
   </footer>
 
-<script>
+<!--script>
 document.querySelectorAll('.carousel').forEach(carousel => {
   const images = carousel.querySelectorAll('img');
   const dotsContainer = carousel.querySelector('.dots');
@@ -289,9 +293,9 @@ document.querySelectorAll('.carousel').forEach(carousel => {
     showImage(index);
   });
 });
-</script>
+</script-->
 
-<!--script>
+<script>
 document.addEventListener('DOMContentLoaded', () => {
   // ---------------------
   // Inner carousels (per project)
@@ -333,31 +337,8 @@ document.addEventListener('DOMContentLoaded', () => {
       showImage(index);
     });
   });
-
-  // ---------------------
-  // Main project carousel
-  // ---------------------
-  const projectSlides = document.querySelectorAll('.project-slide');
-  let projectIndex = 0;
-
-  const showProject = (i) => {
-    projectSlides.forEach(slide => slide.classList.remove('active'));
-    projectSlides[i].classList.add('active');
-  };
-
-  document.querySelector('.project-next').addEventListener('click', () => {
-    projectIndex = (projectIndex + 1) % projectSlides.length;
-    showProject(projectIndex);
-  });
-
-  document.querySelector('.project-prev').addEventListener('click', () => {
-    projectIndex = (projectIndex - 1 + projectSlides.length) % projectSlides.length;
-    showProject(projectIndex);
-  });
-
-  // show first slide
-  showProject(projectIndex);
 });
-</script-->
+</script>
+
 </body>
 </html>
