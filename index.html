@@ -22,7 +22,57 @@
   <section id="about">
     <h2>About Me</h2>
     <p>
-      20+ years of gamedev and programming experience. I like making games more than making portfolio sites. 
+      20+ years of gamedev and programming experience. I like making games more than making portfolio sites.
+    </p>
+    <p>
+      Most of my code lives in proprietary company codebases or private repos.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: steve {dot} coluccio [at] gmail {dot} com</p>
+   
+    <p>
+      <a href="https://linkedin.com/in/steve-coluccio" target="_blank" class="social-link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+        <path d="M19 0h-14c-2.8 0-5 2.2-5 5v14c0 
+        2.8 2.2 5 5 5h14c2.8 0 5-2.2 
+        5-5v-14c0-2.8-2.2-5-5-5zm-11 
+        19h-3v-10h3v10zm-1.5-11.3c-1 
+        0-1.7-.7-1.7-1.6s.7-1.6 
+        1.7-1.6 1.7.7 
+        1.7 1.6-.7 1.6-1.7 
+        1.6zm13.5 11.3h-3v-5.6c0-1.3-.5-2.2-1.7-2.2-.9 
+        0-1.4.6-1.6 1.2-.1.2-.1.5-.1.8v5.8h-3s.1-9.4 
+        0-10h3v1.4c.4-.6 1.2-1.5 
+        2.9-1.5 2.1 0 3.6 1.4 
+        3.6 4.3v5.8z"/>
+      </svg>
+      </a>
+
+      <a href="https://github.com/loochlabs" target="_blank" class="social-link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+        <path d="M12 .5C5.7.5.8 5.4.8 11.7c0 4.9 3.2 
+        9 7.6 10.5.6.1.8-.3.8-.6v-2.2c-3.1.7-3.8-1.3-3.8-1.3-.5-1.2-1.2-1.5-1.2-1.5-1-.7.1-.7.1-.7 
+        1.1.1 1.7 1.2 1.7 1.2 1 .1.9.8 2.7 1.3 3.3.4 
+        2.7-1.1 2.7-1.1-.3-.8-.7-1.3-1.3-1.6-2.5-.3-5.2-1.3-5.2-5.8 
+        0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 
+        0 0 1-.3 3.3 1.2a11.3 11.3 0 0 1 6 0c2.3-1.5 
+        3.3-1.2 3.3-1.2.6 1.6.2 2.8.1 3.1.8.8 
+        1.2 1.9 1.2 3.2 0 4.5-2.7 5.5-5.3 
+        5.8.4.3.8 1 .8 2v3c0 .3.2.7.8.6 
+        4.4-1.5 7.6-5.6 7.6-10.5C23.2 5.4 
+        18.3.5 12 .5z"/>
+      </svg>
+      </a>
+
+      <a href="https://twitch.tv/loochlabs" target="_blank" class="social-link">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white">
+          <path d="M4 2L2 6v14h5v4h4l4-4h5l4-4V2H4zm18 13l-2 2h-6l-4 4v-4H6V4h16v11z"/>
+          <path d="M15 7h2v5h-2zm-4 0h2v5h-2z"/>
+        </svg>
+      </a>
     </p>
   </section>
 
@@ -30,47 +80,119 @@
     <h2>Side Projects</h2>
 
     <div class="project">
-      <img src="images/easy_feedback.png" alt="Easy Player Feedback">
+      <div class="carousel">
+        <img src="images/easy1.png" class="active">
+        <img src="images/easy2.png">
+        <img src="images/easy3.png">
+
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+        <div class="dots"></div>
+      </div>
       <h3>Easy Player Feeedback | UE5 Plugin | 2023</h3>
       <p>A simple, lightweight Trello integration system for user submitted feedback.</p>
+      <p>Team/Role: solo project</p>
+      <p>Tech: Unreal 5, C++, Trello</p>
       <a href="https://www.fab.com/listings/830a923e-a37c-4133-a8f8-a1442fed3448" target="_blank">Fab Store</a>
     </div>
 
     <div class="project">
-      <img src="images/nff.png" alt="NFF">
+      <div class="carousel">
+        <img src="images/nff.png" class="active">
+        <img src="images/nff2.png">
+        <img src="images/nff3.png">
+
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+        <div class="dots"></div>
+      </div>
       <h3>Nasty Fast Food | Web Game | 2023</h3>
       <p>Action swarm game, survivor-like</p>
       <p>Team Size: 2 | programming + design</p>
+      <p>Tech: Unity, C#, Aesprite</p>
       <a href="https://loochlabs.itch.io/nff" target="_blank">itch.io</a>
     </div>
 
     <div class="project">
-      <a href="https://www.youtube.com/watch?v=PhNtqhz4eO4" target="_blank">
-        <img src="https://img.youtube.com/vi/PhNtqhz4eO4/0.jpg" alt="Video Thumbnail">
-      </a>
+      <div class="carousel">
+        <img src="images/shafted1.jpg" class="active">
+        <img src="images/shafted2.jpg">
+        <img src="images/shafted3.jpg">
+
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+        <div class="dots"></div>
+      </div>
       <h3>SHAFTED | Game | 2022</h3>
       <p>SHAFTED is a QUICK resource management game. Build your mini mining colony. Optimize your mineral outputs. Strategically position your buildings with turn based tactics. Pay off your contracts or else you'll get SHAFTED.</p>
+      <p>Team/Role: Lead dev with one 3d modeller, one marketting guy</p>
+      <p>Tech: Unreal 5, C++, blueprints, Blender, Affinity Designer</p>
       <a href="https://store.steampowered.com/app/2074530/SHAFTED/" target="_blank">Steam</a>
+      <a href="https://www.youtube.com/watch?v=PhNtqhz4eO4" target="_blank">Trailer</a>
     </div>
 
     <div class="project">
-      <a href="https://www.youtube.com/watch?v=_5_H3Mcc4Ws" target="_blank">
-        <img src="https://img.youtube.com/vi/_5_H3Mcc4Ws/0.jpg" alt="Video Thumbnail">
-      </a>
+      <div class="carousel">
+        <img src="images/exit1.png" class="active">
+        <img src="images/exit2.png">
+        <img src="images/exit3.png">
+
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+        <div class="dots"></div>
+      </div>
       <h3>Exit Whole | Game | 2022</h3>
       <p>Exit the cave. Find something else along the way.</p>
-      <p>Epic MegaJam 2022 entry</p>
+      <p>Epic MegaJam 2022 entry. One week solo game jam project.</p>
+      <p>Team/Role: solo project</p>
+      <p>Tech: Unreal 5, C++, blueprints, Blender, Affinity Designer</p>
       <a href="https://loochlabs.itch.io/exit-whole" target="_blank">itch.io</a>
+      <a href="https://www.youtube.com/watch?v=_5_H3Mcc4Ws" target="_blank">Trailer</a>
     </div>
 
      <div class="project">
-      <a href="https://www.youtube.com/watch?v=SPfRuHD3V_E" target="_blank">
-        <img src="https://img.youtube.com/vi/SPfRuHD3V_E/0.jpg" alt="Video Thumbnail">
-      </a>
+      <div class="carousel">
+        <img src="images/alchemical1.jpg" class="active">
+        <img src="images/alchemical2.jpg">
+        <img src="images/alchemical3.jpg">
+        <img src="images/alchemical4.jpg">
+
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+        <div class="dots"></div>
+      </div>
       <h3>Alchemical Inc | Game | 2021</h3>
       <p>Deck building roguelike, run around as a kid in a steampunk city.</p>
+      <p>Team/Role: Lead dev with 8 art contractors for card art</p>
+      <p>Tech: Unreal 5, C++, blueprints, Blender, Substance painter, Affinity Photo, Affinity Designer</p>
       <a href="https://loochlabs.itch.io/alchemical-inc" target="_blank">itch.io</a>
+      <a href="https://www.youtube.com/watch?v=SPfRuHD3V_E" target="_blank">Trailer</a>
     </div>
+
+    <div class="project">
+      <div class="carousel">
+        <img src="images/temperature.png" class="active">
+      </div>
+      <h3>Temperature Parser | Research Tool | 2020</h3>
+      <p>A Python library for converting .CSV files containing thermal infrared measurements to .TIF image files. Scripts here were developed for TIR images taken with an Optris PI 450 camera with an 80 degree wide-angle lens.</p>
+      <p>Team/Role: programming</p>
+      <p>Tech: python, opencv</p>
+      <a href="https://github.com/loochlabs/temperature_parser" target="_blank">github</a>
+    </div>
+
+    <div class="project">
+      <div class="carousel">
+        <img src="images/bookie.png" class="active">
+      </div>
+
+      <h3>Bookie | World of Warcraft Mod | 2020</h3>
+      <p>Gambling minigame with trade tracking and payout calculations.</p>
+      <p>Team/Role: solo project</p>
+      <p>Tech: Lua</p>
+      <a href="https://www.curseforge.com/wow/addons/bookie" target="_blank">Download</a>
+      <a href="https://github.com/loochlabs/DuelBookie" target="_blank">github</a>
+    </div>
+
 
     <div class="project">
       <a href="https://www.youtube.com/watch?v=PojVq69CydU" target="_blank">
@@ -78,29 +200,76 @@
       </a>
       <h3>Sweaty Palms | Game | 2017</h3>
       <p>Climbing simulation game</p>
+      <p>Team/Role: solo project</p>
+      <p>Tech: Unity, C#, Adobe Animate</p>
       <a href="https://thecalooch.itch.io/sweaty-palms" target="_blank">itch.io</a>
     </div>
 
     <div class="project">
-      <img src="images/void.gif" alt="void">
+      <div class="carousel">
+        <img src="images/null1.gif" class="active">
+        <img src="images/null1.png">
+        <img src="images/null2.png">
+        <img src="images/null3.png">
+        <img src="images/void.gif">
+
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+        <div class="dots"></div>
+      </div>
+
       <h3>Null And Void | Game | 2017</h3>
       <p>Action roguelike</p>
+      <p>Team/Role: solo project</p>
+      <p>Tech: Java, libgdx, Adobe Animate</p>
       <a href="https://thecalooch.itch.io/null-and-void-demo" target="_blank">itch.io</a>
     </div>
 
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: steve {dot} coluccio [at] gmail {dot} com</p>
-    <p>
-      <a href="linkedin.com/in/steve-coluccio">LinkedIn</a>
-    </p>
   </section>
 
   <footer>
     <p>© 2026 Looch Labs</p>
   </footer>
 
+<script>
+document.querySelectorAll('.carousel').forEach(carousel => {
+  const images = carousel.querySelectorAll('img');
+  const dotsContainer = carousel.querySelector('.dots');
+  let index = 0;
+
+  // Create dots
+  images.forEach((_, i) => {
+    const dot = document.createElement('span');
+    if (i === 0) dot.classList.add('active');
+
+    dot.addEventListener('click', () => {
+      index = i;
+      showImage(index);
+    });
+
+    dotsContainer.appendChild(dot);
+  });
+
+  const dots = dotsContainer.querySelectorAll('span');
+
+  const showImage = (i) => {
+    images.forEach(img => img.classList.remove('active'));
+    dots.forEach(dot => dot.classList.remove('active'));
+
+    images[i].classList.add('active');
+    dots[i].classList.add('active');
+  };
+
+  carousel.querySelector('.next').addEventListener('click', () => {
+    index = (index + 1) % images.length;
+    showImage(index);
+  });
+
+  carousel.querySelector('.prev').addEventListener('click', () => {
+    index = (index - 1 + images.length) % images.length;
+    showImage(index);
+  });
+});
+</script>
 </body>
 </html>
